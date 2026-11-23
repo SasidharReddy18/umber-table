@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Umber Table | Discover Food</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#">SAVOUR <span>/</span></a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#discover">Discover</a>
+      <a href="#restaurants">Restaurants</a>
+      <a href="#offers">Offers</a>
+    </nav>
+    <a class="basket" href="#basket">Your basket · 2</a>
+  </header>
+
+  <main id="discover" class="page-shell">
+    <section class="hero">
+      <p class="eyebrow">GOOD FOOD, GOOD MOOD.</p>
+      <h1>Find your next<br>favourite meal.</h1>
+      <p class="intro">Fresh picks from neighbourhood kitchens.</p>
+      <form class="search-bar" id="searchForm">
+        <label class="visually-hidden" for="searchInput">
+          Search restaurants or dishes
+        </label>
+        <input id="searchInput" type="search"
+               placeholder="Search dishes or restaurants">
+        <button type="submit">Find food</button>
+      </form>
+      <p id="searchMessage" class="search-message" aria-live="polite"></p>
+    </section>
+
+    <section id="restaurants" class="restaurant-section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">A LITTLE SOMETHING FOR EVERY CRAVING</p>
+          <h2>Popular around you</h2>
+        </div>
+        <span class="result-count">06 kitchens</span>
+      </div>
+
+      <div class="restaurant-grid">
+        <article class="restaurant-card">
+          <div class="food-art pizza" aria-hidden="true">✦</div>
+          <div class="card-copy"><span class="rating">★ 4.8</span>
+            <h3>Ember &amp; Grain</h3><p>Wood-fired pizza</p>
+            <strong>₹280 onwards</strong></div>
+        </article>
+        <article class="restaurant-card">
+          <div class="food-art bowl" aria-hidden="true">✿</div>
+          <div class="card-copy"><span class="rating">★ 4.6</span>
+            <h3>Mint Leaf</h3><p>Fresh bowls</p>
+            <strong>₹190 onwards</strong></div>
+        </article>
+        <article class="restaurant-card">
+          <div class="food-art noodles" aria-hidden="true">〰</div>
+          <div class="card-copy"><span class="rating">★ 4.7</span>
+            <h3>Noodle Nook</h3><p>Asian comfort</p>
+            <strong>₹220 onwards</strong></div>
+        </article>
+        <article class="restaurant-card">
+          <div class="food-art dosa" aria-hidden="true">◒</div>
+          <div class="card-copy"><span class="rating">★ 4.5</span>
+            <h3>The Dosa Room</h3><p>South Indian</p>
+            <strong>₹120 onwards</strong></div>
+        </article>
+        <article class="restaurant-card">
+          <div class="food-art tandoor" aria-hidden="true">✧</div>
+          <div class="card-copy"><span class="rating">★ 4.7</span>
+            <h3>Tandoor Trail</h3><p>North Indian</p>
+            <strong>₹240 onwards</strong></div>
+        </article>
+        <article class="restaurant-card">
+          <div class="food-art sweet" aria-hidden="true">❋</div>
+          <div class="card-copy"><span class="rating">★ 4.9</span>
+            <h3>Sweet Theory</h3><p>Desserts &amp; bakes</p>
+            <strong>₹150 onwards</strong></div>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer><p>Made for good meals. © 2026 Umber Table</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
